@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #6a91df;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.game-container{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 50px;
+}
+span{
+  padding: 10px;
+  width: 40px;
+  background-color: aliceblue;
+  color:#587eca;
+}
+span:hover{
+background-color: rgba(240, 248, 255, 0.897);
+}
